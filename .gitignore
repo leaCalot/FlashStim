@@ -50,3 +50,16 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# PCB file noise
+*.l#*
+*.s#*
+*.b#*
+*.pro
+*.job
+*.dri
+*.gpi
+*.fab
+
+# Do not stage datasheets by default that could pose copyright infringement with SoC vendor
+doc/*
