@@ -2,6 +2,14 @@
 
 This repository contains the design files (Eagle) and source code for the Flash Stim, a power unit that uses a Xenon Photoflash circuit as driver for the output stage. This design was inspired by discussions on various online e-stim forums.
 
+***Before proceeding***
+* You proceed at your own risk.
+* You use, modify, cite, distribute everything you see under the terms of the [LICENSE](LICENSE)
+* You should be experienced with electrical safety
+* You should be experienced in embedded firmware and electrical circuits
+* You agree to take any non-technical discussion to the appropriate [venue](reddit.com/r/estim/),
+* and abide by the [code of conduct](CODE_OF_CONDUCT.md) for anything else.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -12,7 +20,7 @@ What things you need to install the software and how to install them
 * [Eagle (at least version 7)](https://www.autodesk.com/products/eagle/overview) - To view and edit the PCB design files
 * [GNU ARM embedded (at least version 4.8)](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm) - To cross-compile the sources
 * [OpenOCD](http://openocd.org/) - To deploy the firmware on target.
-* [ST-link debugger or equivalent](www.st.com/en/development-tools/st-link-v2.html) - To deploy the sources on the target.
+* [ST-link debugger or equivalent](http://www.st.com/en/development-tools/st-link-v2.html) - To deploy the sources on the target.
 
 #### Suggested Environment
 * [Eclipse IDE](https://www.eclipse.org) - Versatile IDE that can be customized perform on-target debugging.
@@ -74,6 +82,10 @@ git add my_super_awesome_fix.file
 diff --binary --staged > my_enhancement.patch
 ```
 Then file the ```my_enhancement.patch``` as in-line text in your [enhancement request issue](https://github.com/leaCalot/FlashStim/issues).
+
+## Feature Roadmap
+
+* Try Chinese BLE module to reduce cost
 
 ## Authors
 
