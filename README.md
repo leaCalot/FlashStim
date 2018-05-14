@@ -69,6 +69,10 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
+## Planning Documentation
+
+* [Output Power Estimation](doc/POWER.md)
+
 ## Contributing
 
 There is no formal process yet for contributing to this project. If you have ehnancement ideas please submit a patch as [issue](https://github.com/leaCalot/FlashStim/issues), or contact the [author](https://github.com/leaCalot) to request write privileges on this repository.
